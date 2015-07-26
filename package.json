@@ -8,6 +8,7 @@
   },
   "author": "Camilo Tapia <camilo.tapia@gmail.com> (http://www.1001.io/)",
   "license": "MIT",
+  "repository": "https://github.com/camme/heos",
   "dependencies": {
     "node-ssdp": "^2.3.0",
     "node-telnet-client": "^1.0.0-8",
