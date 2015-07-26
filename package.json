@@ -1,6 +1,6 @@
 {
   "name": "heos",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A nodejs package to communicate with your Denon Heos speakers",
   "main": "index.js",
   "scripts": {
