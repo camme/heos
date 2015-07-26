@@ -11,6 +11,6 @@
   "repository": "https://github.com/camme/heos",
   "dependencies": {
     "es6-promise": "^2.3.0",
-    "node-ssdp": "^2.3.0",
+    "node-ssdp": "^2.3.0"
   }
 }
