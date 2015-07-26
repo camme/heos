@@ -12,7 +12,5 @@
   "dependencies": {
     "es6-promise": "^2.3.0",
     "node-ssdp": "^2.3.0",
-    "node-telnet-client": "^1.0.0-8",
-    "telnet-client": "^0.1.0"
   }
 }
