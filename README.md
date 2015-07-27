@@ -47,7 +47,7 @@ This heos module works primarely with promises so when you call connect, you rec
  
 ### Current implementation
 
-The current version suppors the folowing commands>
+The current version suppors the following commands:
 
 - Connect
 - heos.getPlayers() - Get all players. Returns an array of player instances. This takes a little time to finish.
