@@ -56,6 +56,11 @@ The current version suppors the folowing commands>
 - player.playPrevious() - Play the previous track on the selected player.
 - player.getNowPlaying() - Get the current track that is playing on the selected player
 
+### Next steps
+
+The next step is to implent error handling such as connection timeouts, reconnecting etc.
+And of course, implement all the API commands and events.
+
 ### Known issues
 
 Since this module is very alpha, there are some things that I havent figured out yet. These things behave oddly:
