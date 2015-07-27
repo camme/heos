@@ -26,7 +26,7 @@ This heos module works primarely with promises so when you call connect, you rec
     Heos.connect()
         .then(function(heos) {
 
-            // Get all your players (speakers or groups)
+            // Get all your players (speakers or groups), this takes some seconds
             return heos.getPlayers();
 
         })
@@ -50,7 +50,7 @@ This heos module works primarely with promises so when you call connect, you rec
 The current version suppors the folowing commands>
 
 - Connect
-- heos.getPlayers() - Get all players. Returns an array of player instances
+- heos.getPlayers() - Get all players. Returns an array of player instances. This takes a little time to finish.
 - heos.getPlayer(pid) - Get single player (this calls getPlayers first though, since it bugged when calling the player directly. Returns a player instance.
 - player.playNext() - Play the next track on the selected player.
 - player.playPrevious() - Play the previous track on the selected player.
