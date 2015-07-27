@@ -54,8 +54,8 @@ The current version suppors the following commands:
 - heos.getPlayer(pid) - Get single player (this calls getPlayers first though, since it bugged when calling the player directly. Returns a player instance.
 - player.playNext() - Play the next track on the selected player.
 - player.playPrevious() - Play the previous track on the selected player.
-- player.getPlayState() - Get the state of the selected player.
-- player.getNowPlaying() - Get the current track that is playing on the selected player
+- player.getPlayState() - Get the state of the selected player. Returns 'play', 'pause' or 'stop'.
+- player.getNowPlaying() - Get the current track that is playing on the selected player.
 
 ### Next steps
 
