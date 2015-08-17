@@ -71,7 +71,7 @@ Since this module is very alpha, there are some things that I havent figured out
 
 ## How it works
 
-The Heos speakers create their own telnet server, which this module connect to and tries to convert into something more 'node'. Each command to the telnet server is composed of a string and '\r\n'; 
+The Heos speakers create their own telnet server, which this module connects to and tries to convert into something more 'nodejs'. Each command to the telnet server is composed of a string and '\r\n'; 
 
 [Read more about the Heos API here](http://www.eurostar-ostrava.cz/files/01.2015_HEOS---CLI_PROTOCOL_V01.pdf).
 
