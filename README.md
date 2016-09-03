@@ -1,9 +1,9 @@
 HEOS
 ====
 
-Thid module lets you control and communicate with your Denond Heos speakers.
+This module lets you control and communicate with your Denond Heos speakers.
 
-Its super early beta test so you cant do much with it except get the current stateof your first speaker.
+Its super early beta test so you cant do much with it except get the current state of your first speaker.
 
 The current version can be tested with
 
@@ -18,7 +18,7 @@ First install the npm module:
 
     npm install heos
 
-Then run your code in the same wifi as your Heos system. First you need to connect to the system. 
+Then run your code in the same wifi as your Heos system. First you need to connect to the system.
 This heos module works primarely with promises so when you call connect, you recieve a promise:
 
     var Heos = require('heos');
@@ -33,7 +33,7 @@ This heos module works primarely with promises so when you call connect, you rec
         .then(function(players) {
 
             console.log('Found %s players', players.length);
-            
+
             // Pick the first and get what it is playing
             return players[0].getNowPlaying()
                 .then(function(media) {
@@ -44,7 +44,7 @@ This heos module works primarely with promises so when you call connect, you rec
         .catch(function(err) {
             console.log('Error', err);
         });
- 
+
 ### Current implementation
 
 The current version suppors the following commands:
@@ -71,7 +71,7 @@ Since this module is very alpha, there are some things that I havent figured out
 
 ## How it works
 
-The Heos speakers create their own telnet server, which this module connects to and tries to convert into something more 'nodejs'. Each command to the telnet server is composed of a string and '\r\n'; 
+The Heos speakers create their own telnet server, which this module connects to and tries to convert into something more 'nodejs'. Each command to the telnet server is composed of a string and '\r\n';
 
 [Read more about the Heos API here](http://www.eurostar-ostrava.cz/files/01.2015_HEOS---CLI_PROTOCOL_V01.pdf).
 
