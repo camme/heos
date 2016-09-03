@@ -19,7 +19,7 @@ heos.connect()
                             .then(function(media) {
                                 if (!media.song) {
                                     return player1.getNowPlaying();
-                                }  
+                                }
                                 return media;
                             });
                     })
